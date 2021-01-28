@@ -33,7 +33,8 @@ func (c *command) Launch() error {
 }
 
 func (c *command) Exec() error {
-	//TODO 测试
+	//TODO
+	//测试
 	c.Args = append(c.Args, "/home/nextstage/maya_002_wxrt/job/process/command.sh")
 	c.Name = "bash"
 	// c.Name = "E:\\mine\\圣诞树给你，放桌面上.exe"
